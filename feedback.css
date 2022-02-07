@@ -1,0 +1,38 @@
+*{
+    font-family: sans-serif;
+}
+.main h1{
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.myfield{
+    display: block;
+}
+input{
+    width: 100%;
+    margin:40px 0;
+    height: 30px;
+    
+}
+.myfield input, textarea{
+    width: 100%;
+    resize: none;
+    
+}
+
+#mybtn{
+    width: 100%;
+    margin: 15px auto;
+    padding: 15px 0;
+    background-color: rgb(25, 143, 25);
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+
+}
+
+button:hover{
+    cursor: pointer;
+}

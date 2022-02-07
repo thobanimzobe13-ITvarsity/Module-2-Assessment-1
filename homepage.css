@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-image: url('images/map-blur.png');
+}
+.main{
+    width: 90%;
+    margin: auto;
+}
+.content{
+    display: flex;
+    border: none;
+    min-height: 30px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    
+}
+
+.content img{
+    height: 20vh;
+}
+.content .arrow{
+    margin-left: auto;
+}
+.content .arrow img{
+    height: 10vh;
+    margin-top: 30px;
+    
+}
+.content ul{
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.content ul li h1 {
+    text-transform: uppercase;
+    color: rgb(114, 21, 21);
+    
+}
+
+.subtxt{
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width:500px){
+    .content img{
+        height: 10vh;
+    }
+    .content .arrow img{
+        height: 5vh;
+        margin-top: 20px;
+        
+    }
+
+  
+}
+
+
+
+
+

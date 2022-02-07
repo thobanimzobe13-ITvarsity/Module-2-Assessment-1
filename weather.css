@@ -1,0 +1,62 @@
+*{
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+
+.main-div{
+    display: flex;
+}
+.main-div ul li{
+    font-weight: bold;
+}
+
+#deg{
+    margin-top: 20px;
+}
+
+
+
+
+.main {
+    text-align: left;
+    min-height: auto;
+    opacity: .8;
+}
+.main h2{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.main img{
+    height: 6vh;
+    width: 6vh;
+    text-align: left;
+
+}
+.mydiv{
+    margin: 20px 0;
+    font-size:xx-large;
+    
+}
+
+table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+    
+}
+tr td{
+    padding: 10px;
+    border-top: 1px solid black;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+.mytable h1{
+    text-transform: uppercase;
+}
+
+
+
